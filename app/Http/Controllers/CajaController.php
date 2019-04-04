@@ -47,7 +47,7 @@ class CajaController extends Controller
 
 	
 	}
-//dd($f1);
+//dd($f1); aqui mostramos codigo de depuracion
 	$userr=auth()->user()->idrol;
 	if ($userr =='2'||$userr =='3'){
 		if($request){
